@@ -1,0 +1,27 @@
+// DM Environment file for ServerShipping.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "_stubs\config.dm"
+#include "_stubs\general.dm"
+#include "_stubs\objects.dm"
+#include "_stubs\topic_command.dm"
+#include "core\_shipping_globals.dm"
+#include "core\shipping_api.dm"
+#include "core\shipping_hooks.dm"
+#include "core\shipping_request.dm"
+#include "core\shipping_server.dm"
+#include "testing\verbs.dm"
+// END_INCLUDE
+
